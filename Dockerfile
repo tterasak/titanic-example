@@ -19,5 +19,5 @@ COPY ./script /app/script
 WORKDIR /app
 VOLUME "/app"
 
-ENV TASK_WORKSPACE_DIRECTORY s3://titanic-example/
+ENV TASK_WORKSPACE_DIRECTORY s3://kaggle-titanic-tterasak/
 CMD ["bash", "script/endpoint.sh"]
